@@ -1,0 +1,25 @@
+{
+  "name": "EtherFlowX",
+  "version": "1.0.0",
+  "description": "A simple smart contract for secure Ether deposits and withdrawals built using Hardhat.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "keywords": [
+    "solidity",
+    "hardhat",
+    "blockchain",
+    "ether",
+    "smart-contract"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.1"
+  }
+}
